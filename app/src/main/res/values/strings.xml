@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">SecondTask</string>
+
+    <string name="username"> <font size="12"></font> Enter Alphabets min 4 len</string>
+    <string name="password"><font size="1"></font>char/num/sym/combine min 4len</string>
+    <string name="place"><font size="12"></font>Enter Alphabets minimum 2 Len</string>
+
+</resources>

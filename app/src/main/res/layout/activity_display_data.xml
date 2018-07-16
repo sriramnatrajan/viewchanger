@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+      android:orientation="horizontal"
+    android:weightSum="100"
+    tools:context=".DisplayData">
+    <ListView
+        android:id="@+id/listitem"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/userid"
+            android:textSize="20sp"
+            android:layout_weight="33"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        </TextView>
+
+
+
+        <TextView
+            android:id="@+id/username"
+            android:textSize="20sp"
+            android:layout_weight="33"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        </TextView>
+
+        <TextView
+            android:id="@+id/passwordd"
+            android:textSize="20sp"
+            android:layout_weight="33"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        </TextView>
+
+        <TextView
+            android:id="@+id/placee"
+            android:textSize="20sp"
+            android:layout_weight="33"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        </TextView>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnview"
+            android:text="View"/>
+    </ListView>
+</RelativeLayout>
